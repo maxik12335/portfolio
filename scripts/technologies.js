@@ -7,6 +7,8 @@ technologiesButtons.forEach((buttons, buttonsIdx) => {
     })
 })
 
+// toggle list
+
 const buttonAll = document.querySelector('.navigations-all'),
     buttonReact = document.querySelector('.navigations-react'),
     listAll = document.querySelector('.portfolio-all'),
