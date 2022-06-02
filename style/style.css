@@ -210,6 +210,34 @@ ul {
     .logo::after {
         width: 70%;
     }
+
+    .portfolio__left {
+        margin-right: 10px;
+    }
+
+    .portfolio__title {
+        font-size: 20px;
+    }
+
+    .portfolio__git {
+        font-size: 15px;
+    }
+
+    .portfolio__git-link {
+        font-size: 13px;
+    }
+
+    .portfolio__button {
+        font-size: 15px;
+    }
+
+    .portfolio__technology {
+        font-size: 13px;
+    }
+
+    .navigations__list-item {
+        padding: 10px 20px;
+    }
 }
 
 @media(max-width: 400px) {
@@ -219,5 +247,9 @@ ul {
 
     .logo::after {
         width: 70%;
+    }
+
+    .navigations__list-item {
+        min-width: 140px;
     }
 }
